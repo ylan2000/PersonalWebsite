@@ -1,0 +1,29 @@
+@font-face {
+    font-family: verdana-regular;
+    src: url("/fonts/verdana/verdana.ttf") format("truetype");
+}
+
+body {
+    font-family: 'Libre Caslon Text', serif;
+    line-height: 1.6;
+    color: $color-dark;
+    font-size: $default-font-size;
+}
+
+.heading {
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.3;
+}
+
+.heading-primary {
+    font-size: 6.6rem;
+}
+
+.heading-secondary {
+    font-size: 2.7rem;
+}
+
+.heading-tertiary {
+    font-size: $default-font-size;
+    text-transform: uppercase;
+}
