@@ -14,8 +14,13 @@ body {
     box-sizing: border-box;
 }
 
-.container {
+.big-container {
     max-width: 92rem;
+    margin: 0 auto;
+}
+
+.small-container {
+    max-width: 70rem;
     margin: 0 auto;
 }
 

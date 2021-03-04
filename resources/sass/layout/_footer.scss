@@ -1,9 +1,7 @@
 .footer {
-    display: absolute;
     bottom: 0;
     left: 0;
     padding: 1.5rem 0;
-    font-size: 1.3rem;
     position: relative;
     @include black-white;
 
@@ -12,7 +10,7 @@
         display: block;
         height: 3.5rem;
         width: 100%;
-        top: -70%;
+        top: -3.5rem;
         position: absolute;
         left: 0;
         background: url("/images/footer_edge.png");
@@ -20,6 +18,7 @@
     }
 
     &__list {
+        font-size: 1.3rem;
         justify-content: flex-end;
         margin-right: 2rem;
     }
@@ -31,6 +30,36 @@
 
         &:not(:first-child) {
             margin-left: 1rem;
+        }
+    }
+
+    &__cta {
+        padding: 5rem 0;
+
+        &--heading {
+            text-align: center;
+        }
+
+        &--para {
+            margin-top: 2rem;
+        }
+
+        &--btn {
+            & a {
+                padding: 1.2rem 0;
+                display: block;
+                width: 18rem;
+                margin: 2rem auto 0;
+                color: $color-light;
+                background-color: $color-red-dark-2;
+                text-transform: uppercase;
+                text-align: center;
+                font-weight: 700;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
         }
     }
 }
