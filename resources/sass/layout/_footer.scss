@@ -1,0 +1,36 @@
+.footer {
+    display: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 1.5rem 0;
+    font-size: 1.3rem;
+    position: relative;
+    @include black-white;
+
+    &::before {
+        content: "";
+        display: block;
+        height: 3.5rem;
+        width: 100%;
+        top: -70%;
+        position: absolute;
+        left: 0;
+        background: url("/images/footer_edge.png");
+        background-position: center;
+    }
+
+    &__list {
+        justify-content: flex-end;
+        margin-right: 2rem;
+    }
+
+    &__list-item {
+        &:not(:last-child) {
+            margin-right: 1rem;
+        }
+
+        &:not(:first-child) {
+            margin-left: 1rem;
+        }
+    }
+}
