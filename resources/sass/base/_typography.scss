@@ -3,20 +3,27 @@
     src: url("/fonts/verdana/verdana.ttf") format("truetype");
 }
 
+@font-face {
+    font-family: libreCaslonText-regular;
+    src: url("/fonts/Libre_Caslon_Text/LibreCaslonText-Regular.ttf")
+        format("truetype");
+}
+
 body {
-    font-family: 'Libre Caslon Text', serif;
-    line-height: 1.6;
+    font-family: libreCaslonText-regular, sans-serif;
+    line-height: 1.4;
     color: $color-dark;
     font-size: $default-font-size;
 }
 
-.heading {
+.heading,
+.font-montserrat {
     font-family: "Montserrat", sans-serif;
     line-height: 1.3;
 }
 
 .heading-primary {
-    font-size: 6.6rem;
+    font-size: 4.5rem;
 }
 
 .heading-secondary {
@@ -26,4 +33,8 @@ body {
 .heading-tertiary {
     font-size: $default-font-size;
     text-transform: uppercase;
+}
+
+.link {
+    color: $color-blue-dark-1;
 }

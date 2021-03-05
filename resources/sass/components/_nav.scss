@@ -1,0 +1,44 @@
+.nav {
+    position: absolute;
+    top: 3rem;
+    right: 2rem;
+    font-size: 1.8rem;
+
+    &__list {
+        justify-content: flex-end;
+    }
+
+    &__item {
+        border-radius: 0.3rem;
+        transition: all 0.2s ease-out;
+        position: relative;
+
+        & a {
+            display: inline-block;
+            padding: 1rem 1.5rem;
+
+            &:hover {
+                @include black-white;
+            }
+        }
+
+        &:not(:last-child) {
+            margin-left: 1rem;
+        }
+    }
+
+    &__sub-menu {
+        display: none;
+        position: absolute;
+        left: 0;
+        min-width: 20rem;
+    }
+
+    &__sub-menu &__item {
+        margin-left: 0;
+    }
+
+    &__item:hover &__sub-menu {
+        display: block;
+    }
+}
