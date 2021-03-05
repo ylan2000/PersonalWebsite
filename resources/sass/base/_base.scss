@@ -15,7 +15,7 @@ body {
 }
 
 .big-container {
-    max-width: 92rem;
+    max-width: 103rem;
     margin: 0 auto;
 }
 
@@ -31,4 +31,10 @@ li {
 a {
     color: inherit;
     text-decoration: none;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }

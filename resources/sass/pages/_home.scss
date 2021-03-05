@@ -1,0 +1,267 @@
+.home {
+    &__intro {
+        text-align: center;
+        padding: 4rem 0 8rem;
+        background: url("/images/cover_right.jpg") 100% 0 no-repeat;
+
+        &--para {
+            margin: 3rem 0;
+        }
+
+        &--form {
+            display: flex;
+            flex-direction: column;
+            width: 25rem;
+            margin: 3rem auto 0;
+            border-radius: 3px;
+
+            & input {
+                padding: 1.5rem 1.5rem;
+                font-size: 1.6rem;
+            }
+
+            & input[type="text"] {
+                border: 2px solid $color-grey-light-4;
+                margin-bottom: 1rem;
+            }
+
+            & input[type="submit"] {
+                background: $color-blue-light-1;
+                border: none;
+                font-weight: 700;
+                color: $color-light;
+                cursor: pointer;
+
+                &:hover {
+                    background: $color-blue-dark-1;
+                }
+            }
+        }
+    }
+
+    &__ebook {
+        background-color: $color-primary;
+        color: $color-light;
+        text-align: center;
+        position: relative;
+        padding: 4rem 0 6rem;
+
+        &::before {
+            content: "";
+            display: block;
+            height: 3.5rem;
+            width: 100%;
+            top: -3.5rem;
+            position: absolute;
+            left: 0;
+            background: url("/images/top_edge.png");
+            background-position: center;
+        }
+
+        &::after {
+            content: "";
+            display: block;
+            height: 3.5rem;
+            width: 100%;
+            top: 100%;
+            position: absolute;
+            left: 0;
+            background: url("/images/bottom_edge.png");
+            background-position: center;
+        }
+
+        &--list {
+            justify-content: space-between;
+        }
+
+        &--link {
+            text-decoration: underline;
+        }
+
+        &--card {
+            font-size: 1.6rem;
+            position: relative;
+            display: block;
+            width: 24rem;
+            justify-content: space-between;
+
+            & * {
+                margin-top: 2.5rem;
+            }
+
+            &::before {
+                content: "";
+                display: block;
+                padding-top: 100%;
+                width: 100%;
+                background: url("/images/home-book-topics.png");
+                background-size: 230%;
+            }
+
+            &:first-child {
+                &::before {
+                    background-position: 0 50%;
+                }
+
+                &:hover {
+                    &::before {
+                        background-position: 0 33.3333%;
+                    }
+                }
+            }
+
+            &:nth-child(2) {
+                &::before {
+                    background-position: 100% 16.6666%;
+                }
+
+                &:hover {
+                    &::before {
+                        background-position: 100% 0;
+                    }
+                }
+            }
+
+            &:nth-child(3) {
+                &::before {
+                    background-position: 0 16.6666%;
+                }
+
+                &:hover {
+                    &::before {
+                        background-position: 0 0;
+                    }
+                }
+            }
+
+            &:nth-child(4) {
+                &::before {
+                    background-position: 0 83.3333333%;
+                }
+
+                &:hover {
+                    &::before {
+                        background-position: 0 66.6666666%;
+                    }
+                }
+            }
+        }
+    }
+
+    &__article {
+        margin: 10rem 0 7rem;
+
+        &-card {
+            margin-top: 5.5rem;
+            display: flex;
+            justify-content: space-between;
+            padding-bottom: 4rem;
+
+            &:not(:last-child) {
+                border-bottom: 1px solid $color-grey-light-4;
+            }
+        }
+
+        &-img {
+            width: 14.5rem;
+            height: 14.5rem;
+
+            & img {
+                border-radius: 50%;
+            }
+        }
+
+        &-info {
+            font-size: 1.6rem;
+            width: 15.5rem;
+
+            &--block {
+                &:not(:first-child) {
+                    margin-top: 1rem;
+                }
+
+                & p:first-child {
+                    color: $color-grey-dark-2;
+                }
+            }
+        }
+
+        &-desc {
+            width: 65rem;
+        }
+
+        &-detail {
+            margin-top: 2rem;
+        }
+
+        &-desc:hover h2,
+        &-desc:hover &-detail {
+            color: $color-blue-light-3;
+        }
+
+        &-cond {
+            font-style: italic;
+            color: $color-red;
+            margin-top: 2rem;
+        }
+    }
+
+    &__divide-section {
+        height: 3rem;
+        background-color: $color-primary;
+        position: relative;
+
+        &::before {
+            content: "";
+            display: block;
+            height: 3.5rem;
+            width: 100%;
+            top: -3.5rem;
+            position: absolute;
+            left: 0;
+            background: url("/images/top_edge.png");
+            background-position: center;
+        }
+
+        &::after {
+            content: "";
+            display: block;
+            height: 3.5rem;
+            width: 100%;
+            top: 100%;
+            position: absolute;
+            left: 0;
+            background: url("/images/bottom_edge.png");
+            background-position: center;
+        }
+    }
+
+    &__member {
+        margin-top: 7rem;
+
+        &--card {
+            justify-content: space-between;
+            margin-top: 4.5rem;
+            padding-bottom: 5rem;
+            border-bottom: 1px solid $color-grey-light-4;
+        }
+
+        &--img {
+            width: 34.5rem;
+            height: 21rem;
+        }
+
+        &--content {
+            width: 60rem;
+        }
+
+        &--desc {
+            margin: 2rem 0;
+        }
+    }
+
+    &__signup-cta {
+        width: 94.5rem;
+        margin: 4rem auto;
+    }
+}

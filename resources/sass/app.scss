@@ -4,9 +4,12 @@
 @import "abstracts/variables";
 
 @import "components/nav";
+@import "components/signup-btn";
 
 @import "layout/header";
 @import "layout/footer";
+
+@import "pages/home";
 
 @import "base/base";
 @import "base/icon";

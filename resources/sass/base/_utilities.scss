@@ -1,3 +1,23 @@
 .flex {
     display: flex;
 }
+
+.hover-blue {
+    &:hover {
+        color: $color-blue-dark-1;
+    }
+}
+
+.text-center {
+    text-align: center;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.hover-underline {
+    &:hover {
+        text-decoration: underline;
+    }
+}
