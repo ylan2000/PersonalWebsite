@@ -20,6 +20,10 @@
     <!-- NAVIGATION BAR -->
     @include('components/nav')
 
+    <main>
+        @yield('main-content')
+    </main>
+
     <!-- FOOTER -->
     @include('layouts/footer')
 </body>
