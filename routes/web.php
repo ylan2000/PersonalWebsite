@@ -20,4 +20,8 @@ Route::get('/', function () {
 Route::get('/books', function () {
     return view('pages/books/books');
 });
+
+Route::get('/best-books', function () {
+    return view('pages/books/best-books');
+});
  

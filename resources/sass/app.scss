@@ -5,12 +5,15 @@
 
 @import "components/nav";
 @import "components/signup-btn";
+@import "components/form-recommend";
+@import "components/sign-up-recommend";
 
 @import "layout/header";
 @import "layout/footer";
 
 @import "pages/home";
 @import "pages/books/books";
+@import "pages/books/best-books";
 
 @import "base/base";
 @import "base/icon";

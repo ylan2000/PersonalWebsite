@@ -1,8 +1,8 @@
 .form-recommend {
     display: flex;
-    width: 25rem;
     margin: 3rem auto 0;
     border-radius: 3px;
+    justify-content: center;
 
     & input {
         padding: 1.5rem 1.5rem;
@@ -11,7 +11,6 @@
 
     & input[type="text"] {
         border: 2px solid $color-grey-light-4;
-        margin-bottom: 1rem;
     }
 
     & input[type="submit"] {

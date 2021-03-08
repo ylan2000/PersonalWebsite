@@ -61,6 +61,69 @@
   color: #fff;
 }
 
+.form-recommend {
+  display: flex;
+  margin: 3rem auto 0;
+  border-radius: 3px;
+  justify-content: center;
+}
+
+.form-recommend input {
+  padding: 1.5rem 1.5rem;
+  font-size: 1.6rem;
+}
+
+.form-recommend input[type=text] {
+  border: 2px solid #bbb;
+}
+
+.form-recommend input[type=submit] {
+  background: #4dbdeb;
+  border: none;
+  font-weight: 700;
+  color: #fff;
+  cursor: pointer;
+}
+
+.form-recommend input[type=submit]:hover {
+  background: #1c93c5;
+}
+
+.sign-up-recommend {
+  padding: 3rem;
+  background: #f9f9f9;
+  border-top: 0.7rem solid #bbb;
+  border-bottom: 0.7rem solid #bbb;
+  margin-top: 5rem;
+}
+
+.sign-up-recommend p {
+  margin-top: 3rem;
+}
+
+.sign-up-recommend .form-recommend input {
+  width: 27rem;
+}
+
+.sign-up-recommend .form-recommend input[type=submit] {
+  margin-left: 0.5rem;
+}
+
+.sign-up-recommend .form-recommend input[type=text]::-moz-placeholder {
+  font-weight: 700;
+  font-size: 1.6rem;
+}
+
+.sign-up-recommend .form-recommend input[type=text]:-ms-input-placeholder {
+  font-weight: 700;
+  font-size: 1.6rem;
+}
+
+.sign-up-recommend .form-recommend input[type=text]::placeholder {
+  font-weight: 700;
+  font-size: 1.6rem;
+}
+
 .header {
   margin-top: 3rem;
   margin-left: 2rem;
@@ -146,33 +209,12 @@
 }
 
 .home__intro--form {
-  display: flex;
   flex-direction: column;
   width: 25rem;
-  margin: 3rem auto 0;
-  border-radius: 3px;
 }
 
 .home__intro--form input {
-  padding: 1.5rem 1.5rem;
-  font-size: 1.6rem;
-}
-
-.home__intro--form input[type=text] {
-  border: 2px solid #bbb;
   margin-bottom: 1rem;
-}
-
-.home__intro--form input[type=submit] {
-  background: #4dbdeb;
-  border: none;
-  font-weight: 700;
-  color: #fff;
-  cursor: pointer;
-}
-
-.home__intro--form input[type=submit]:hover {
-  background: #1c93c5;
 }
 
 .home__ebook {
@@ -417,6 +459,50 @@
 .book--right-side {
   margin-left: 3rem;
   flex: 0 0 60%;
+}
+
+.best-books {
+  margin-bottom: 10rem;
+}
+
+.best-books h1 {
+  font-size: 6.5rem;
+  margin: 5rem 0;
+}
+
+.best-books--block {
+  margin-top: 3rem;
+}
+
+.best-books--block:last-child {
+  margin-bottom: 3rem;
+}
+
+.best-books ul {
+  margin: 2rem 0;
+}
+
+.best-books li {
+  list-style-type: square;
+  margin-left: 5rem;
+  line-height: 2;
+}
+
+.best-books li:hover {
+  text-decoration: underline;
+}
+
+.best-books__suggestion {
+  margin: 5rem auto !important;
+}
+
+.best-books__suggestion h2 {
+  margin-bottom: 3rem;
+}
+
+.best-books__desc {
+  width: 49rem;
+  align-self: center;
 }
 
 *,

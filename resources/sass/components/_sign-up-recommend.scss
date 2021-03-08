@@ -1,0 +1,26 @@
+.sign-up-recommend {
+    padding: 3rem;
+    background: $color-grey-light-1;
+    border-top: 0.7rem solid $color-grey-light-4;
+    border-bottom: 0.7rem solid $color-grey-light-4;
+    margin-top: 5rem;
+
+    & p {
+        margin-top: 3rem;
+    }
+
+    & .form-recommend {
+        & input {
+            width: 27rem;
+        }
+
+        & input[type="submit"] {
+            margin-left: 0.5rem;
+        }
+
+        & input[type="text"]::placeholder {
+            font-weight: 700;
+            font-size: 1.6rem;
+        }
+    }
+}

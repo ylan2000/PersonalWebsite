@@ -1,0 +1,43 @@
+.best-books {
+    margin-bottom: 10rem;
+
+    & h1 {
+        font-size: 6.5rem;
+        margin: 5rem 0;
+    }
+
+    &--block {
+        margin-top: 3rem;
+
+        &:last-child {
+            margin-bottom: 3rem;
+        }
+    }
+
+    & ul {
+        margin: 2rem 0;
+    }
+
+    & li {
+        list-style-type: square;
+        margin-left: 5rem;
+        line-height: 2;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    &__suggestion {
+        margin: 5rem auto !important;
+
+        & h2 {
+            margin-bottom: 3rem;
+        }
+    }
+
+    &__desc {
+        width: 49rem;
+        align-self: center;
+    }
+}
