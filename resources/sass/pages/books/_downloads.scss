@@ -1,0 +1,41 @@
+.ebook {
+    margin-top: 5rem !important;
+
+    h1 {
+        font-size: 6.5rem !important;
+    }
+
+    &__block--relationship {
+        background: url("/images/relationships_black2.png");
+    }
+
+    &__block--self-knowledge {
+        background: url("/images/self-knowledge_black2.png");
+    }
+
+    &__block--habit {
+        background: url("/images/habits_black2.png");
+    }
+
+    &__block--happiness {
+        background: url("/images/happiness_black2.png");
+    }
+
+    &__block {
+        background-position: 0 30%;
+        background-repeat: no-repeat;
+        background-size: 20%;
+        padding: 4rem 0 4rem 18rem;
+        border-top: 1px solid $color-grey-light-3;
+    }
+
+    &__shareable {
+        padding: 3rem 0;
+    }
+
+    &__btn-down {
+        background: $color-light;
+        width: 24rem;
+        cursor: pointer;
+    }
+}

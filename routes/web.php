@@ -24,4 +24,8 @@ Route::get('/books', function () {
 Route::get('/best-books', function () {
     return view('pages/books/best-books');
 });
+
+Route::get('/downloads', function () {
+    return view('pages/books/downloads');
+});
  
