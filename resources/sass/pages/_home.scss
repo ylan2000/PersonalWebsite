@@ -10,6 +10,11 @@
 
         &--form {
             flex-direction: column;
+            width: 25rem;
+
+            & input {
+                margin-bottom: 1rem;
+            }
         }
     }
 
