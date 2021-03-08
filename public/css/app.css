@@ -383,6 +383,42 @@
   margin: 4rem auto;
 }
 
+.book__heading {
+  font-size: 6.5rem !important;
+}
+
+.book__block {
+  margin-top: 5rem;
+}
+
+.book__block:last-child {
+  margin-bottom: 10rem;
+}
+
+.book__block h2 {
+  color: #1c93c5;
+}
+
+.book__content {
+  justify-content: space-between;
+  margin: 4rem 0 3rem;
+}
+
+.book__link {
+  display: block;
+}
+
+.book__img {
+  width: 300px;
+  height: 100%;
+  flex: 0 0 40%;
+}
+
+.book--right-side {
+  margin-left: 3rem;
+  flex: 0 0 60%;
+}
+
 *,
 *::after,
 *::before {
