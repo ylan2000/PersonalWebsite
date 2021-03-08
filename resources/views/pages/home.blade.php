@@ -12,7 +12,7 @@
     <h4 class="heading">Sign Up to Receive My Free Newsletter
     </h4>
 
-    <form action="" class="home__intro--form">
+    <form action="" class="form-recommend home__intro--form">
       <input type="text" placeholder="Your email address">
       <input type="submit" value="SUBSCRIBE">
     </form>
