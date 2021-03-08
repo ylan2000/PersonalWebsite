@@ -1,4 +1,9 @@
 .home {
+    & .btn-signup {
+        margin: 4rem auto 9rem;
+        width: 43rem;
+    }
+
     &__intro {
         text-align: center;
         padding: 4rem 0 8rem;
