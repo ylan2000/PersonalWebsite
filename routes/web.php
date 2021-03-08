@@ -29,3 +29,6 @@ Route::get('/downloads', function () {
     return view('pages/books/downloads');
 });
  
+Route::get('/newsletters', function () {
+    return view('pages/newsletters');
+});

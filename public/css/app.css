@@ -545,6 +545,18 @@
   cursor: pointer;
 }
 
+.newsletters__topic {
+  margin: 4rem 0 7rem;
+}
+
+.newsletters__date {
+  width: 14rem;
+}
+
+.newsletters__desc {
+  margin-top: 6rem;
+}
+
 *,
 *::after,
 *::before {
