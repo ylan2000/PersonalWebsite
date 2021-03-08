@@ -4,7 +4,7 @@
 
 @section('main-content')
 <div class="small-container">
-  <h1 class="heading heading-primary text-center book__heading">Books</h1>
+  <h1 class="heading heading-primary--big text-center book__heading">Books</h1>
   <div class="book__block">
     <h2 class="heading heading-secondary text-center">Lorem ipsum dolor sit amet: consectetur adipiscing elit, sed do eiusmod tempor</h2>
     <div class="book__content flex">

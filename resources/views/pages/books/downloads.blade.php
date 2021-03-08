@@ -4,7 +4,7 @@
 
 @section('main-content')
 <div class="small-container">
-  <h1 class="heading text-center">Ebooks</h1>
+  <h1 class="heading text-center heading-primary--big">Ebooks</h1>
   <p class="ebook__shareable">To help you with some of the deeper and more serious topics, I’ve compiled these short ebooks. They are free to download. Learn more below.</p>
 
   <div class="ebook__block ebook__block--happiness">
