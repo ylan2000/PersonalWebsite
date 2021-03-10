@@ -40,3 +40,7 @@ Route::get('/about', function () {
 Route::get('/editorial-process', function () {
     return view('pages/about/editorial-process');
 });
+
+Route::get('/contact', function () {
+    return view('pages/about/contact');
+});
