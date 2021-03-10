@@ -4,11 +4,28 @@
     font-size: 1.8rem;
     font-weight: 700;
     word-spacing: 0.3rem;
-    border: 0.2rem solid $color-primary;
+    cursor: pointer;
+
     transition: all 0.1s linear;
 
-    &:hover {
-        background-color: $color-primary;
+    &--black {
+        border: 0.2rem solid $color-primary;
+
+        &:hover {
+            background-color: $color-primary;
+            color: $color-light;
+        }
+    }
+
+    &--blue {
+        background: $color-blue-light-1;
+        border: none;
         color: $color-light;
+        margin: 0 auto;
+        padding: 1.2rem 6rem;
+
+        &:hover {
+            background: $color-blue-dark-1;
+        }
     }
 }
