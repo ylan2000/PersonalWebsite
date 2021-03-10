@@ -39,7 +39,7 @@
       <label for="confirm">I have read Mark's guidelines and won't make a total ass out of myself.</label>
     </div>
 
-    <input type="submit" value="SEND MESSAGE" class="btn-signup btn-signup--blue">
+    <input type="submit" value="SEND MESSAGE" class="signup-btn signup-btn--blue">
   </form>
 </div>
 @endsection
