@@ -32,3 +32,7 @@ Route::get('/downloads', function () {
 Route::get('/newsletters', function () {
     return view('pages/newsletters');
 });
+
+Route::get('/about', function () {
+    return view('pages/about/about');
+});
