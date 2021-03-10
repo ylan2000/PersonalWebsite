@@ -44,3 +44,7 @@ Route::get('/editorial-process', function () {
 Route::get('/contact', function () {
     return view('pages/about/contact');
 });
+
+Route::get('/subscribe', function () {
+    return view('pages/subscription/subscribe');
+});

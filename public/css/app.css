@@ -75,6 +75,19 @@
   background: #1c93c5;
 }
 
+.signup-btn--yellow {
+  margin: 0 auto;
+  padding: 1.2rem 0;
+  background: linear-gradient(#ffec64, #ffab23);
+  border: 1px solid #ffab23;
+  width: 25rem;
+  border-radius: 1rem;
+}
+
+.signup-btn--yellow:hover {
+  background: linear-gradient(#ffab23, #ffec64);
+}
+
 .form-recommend {
   display: flex;
   margin: 3rem auto 0;
@@ -622,6 +635,19 @@
 
 .newsletters__desc {
   margin-top: 6rem;
+}
+
+.subscribe {
+  margin-bottom: 8rem !important;
+}
+
+.subscribe__cta {
+  font-weight: 700;
+}
+
+.subscribe__cta * {
+  margin-top: 3rem;
+  display: block;
 }
 
 *,

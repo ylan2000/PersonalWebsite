@@ -28,4 +28,20 @@
             background: $color-blue-dark-1;
         }
     }
+
+    &--yellow {
+        margin: 0 auto;
+        padding: 1.2rem 0;
+        background: linear-gradient($color-yellow-light, $color-yellow-dark);
+        border: 1px solid $color-yellow-dark;
+        width: 25rem;
+        border-radius: 1rem;
+
+        &:hover {
+            background: linear-gradient(
+                $color-yellow-dark,
+                $color-yellow-light
+            );
+        }
+    }
 }

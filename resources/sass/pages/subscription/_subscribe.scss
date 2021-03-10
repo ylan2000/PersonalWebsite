@@ -1,0 +1,12 @@
+.subscribe {
+    margin-bottom: 8rem !important;
+
+    &__cta {
+        font-weight: 700;
+
+        & * {
+            margin-top: 3rem;
+            display: block;
+        }
+    }
+}
