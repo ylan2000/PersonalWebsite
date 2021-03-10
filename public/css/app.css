@@ -44,7 +44,7 @@
   display: block;
 }
 
-.btn-signup {
+.signup-btn {
   display: block;
   padding: 1.2rem;
   font-size: 1.8rem;
@@ -54,16 +54,16 @@
   transition: all 0.1s linear;
 }
 
-.btn-signup--black {
+.signup-btn--black {
   border: 0.2rem solid #000;
 }
 
-.btn-signup--black:hover {
+.signup-btn--black:hover {
   background-color: #000;
   color: #fff;
 }
 
-.btn-signup--blue {
+.signup-btn--blue {
   background: #4dbdeb;
   border: none;
   color: #fff;
@@ -71,7 +71,7 @@
   padding: 1.2rem 6rem;
 }
 
-.btn-signup--blue:hover {
+.signup-btn--blue:hover {
   background: #1c93c5;
 }
 
@@ -263,7 +263,7 @@
   text-decoration: underline;
 }
 
-.home .btn-signup {
+.home .signup-btn {
   margin: 4rem auto 9rem;
   width: 43rem;
 }

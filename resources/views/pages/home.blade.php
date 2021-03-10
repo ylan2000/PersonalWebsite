@@ -155,7 +155,7 @@
 <section class="home__signup-cta text-center">
   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis <a href="" class="link hover-underline">Nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</a>
 
-  <a href="" class="font-montserrat btn-signup">SIGN UP AND GET FULL ACCESS</a>
+  <a href="" class="font-montserrat signup-btn signup-btn--black">SIGN UP AND GET FULL ACCESS</a>
 </section>
 @endsection
 
