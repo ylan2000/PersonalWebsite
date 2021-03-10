@@ -36,3 +36,7 @@ Route::get('/newsletters', function () {
 Route::get('/about', function () {
     return view('pages/about/about');
 });
+
+Route::get('/editorial-process', function () {
+    return view('pages/about/editorial-process');
+});
