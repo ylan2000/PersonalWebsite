@@ -50,13 +50,29 @@
   font-size: 1.8rem;
   font-weight: 700;
   word-spacing: 0.3rem;
-  border: 0.2rem solid #000;
+  cursor: pointer;
   transition: all 0.1s linear;
 }
 
-.btn-signup:hover {
+.btn-signup--black {
+  border: 0.2rem solid #000;
+}
+
+.btn-signup--black:hover {
   background-color: #000;
   color: #fff;
+}
+
+.btn-signup--blue {
+  background: #4dbdeb;
+  border: none;
+  color: #fff;
+  margin: 0 auto;
+  padding: 1.2rem 6rem;
+}
+
+.btn-signup--blue:hover {
+  background: #1c93c5;
 }
 
 .form-recommend {
